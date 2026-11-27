@@ -1,0 +1,15 @@
+# Minimal dependencies for the BM25 Streamlit demo and source pipeline
+numpy
+streamlit
+requests
+lxml
+
+# Optional: BM25Okapi implementation (a pure-Python fallback is included)
+# rank-bm25
+
+# Optional dense-index/model dependencies (downloads large model weights)
+# sentence-transformers
+# faiss-cpu
+
+# Optional: automatic local CrPC Schedule II PDF extraction
+# pymupdf

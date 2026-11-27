@@ -1,0 +1,76 @@
+{
+  "tokenizer": "BAAI/bge-m3",
+  "chunk_max_tokens": 400,
+  "chunk_overlap_tokens": 50,
+  "sections": 2970,
+  "segments": 17516,
+  "chunks": 3584,
+  "counts": {
+    "chars_raw": 2105613,
+    "chars_norm": 2092127,
+    "words": 343092,
+    "ws_tokens": 343472,
+    "subword_tokens": 574762,
+    "sentences": 5945,
+    "clauses": 11571
+  },
+  "by_lang": {
+    "bn": {
+      "sections": 1035,
+      "words": 122350,
+      "ws": 122586,
+      "sub": 269652,
+      "chars": 817454
+    },
+    "mixed": {
+      "sections": 43,
+      "words": 4121,
+      "ws": 4130,
+      "sub": 9103,
+      "chars": 26996
+    },
+    "en": {
+      "sections": 1892,
+      "words": 216621,
+      "ws": 216756,
+      "sub": 296007,
+      "chars": 1247677
+    }
+  },
+  "cleaning": {
+    "line_hyphenation": 0,
+    "page_number_lines": 0,
+    "page_number_dashes": 0,
+    "running_headers": 0,
+    "section_numbers": 2850,
+    "footnote_markers": 11,
+    "omitted_passages": 201,
+    "double_spaces": 125
+  },
+  "normalization": {
+    "nukta_precomposed": 8816,
+    "nukta_decomposed": 1,
+    "split_vowel_signs": 32,
+    "bn_digits": 6740,
+    "danda_variants": 243,
+    "zero_width": 0,
+    "nukta_recomposed": 8817
+  },
+  "bm25": {
+    "words": 343092,
+    "stop_removed": 139063,
+    "stems": 23767,
+    "vocab_before": 13608,
+    "vocab_after": 11585
+  },
+  "lexicon": {
+    "n_terms": 80,
+    "n_en_forms": 208,
+    "n_bn_forms": 193,
+    "n_colloquial": 188,
+    "n_related": 120,
+    "n_statutes": 49,
+    "unknown_refs": [],
+    "n_surfaces": 589
+  }
+}

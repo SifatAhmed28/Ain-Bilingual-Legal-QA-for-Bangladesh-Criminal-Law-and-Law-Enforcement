@@ -1,0 +1,1932 @@
+{
+  "version": "1.0",
+  "description": "Hand-built English-Bangla-colloquial lexicon for Bangladesh criminal law and policing. Used for query expansion at retrieval time. 'statutes' values are sec_uid values validated against data/clean/sections.jsonl.",
+  "terms": [
+    {
+      "id": "fir",
+      "label_en": "First Information Report",
+      "label_bn": "এজাহার",
+      "en": [
+        "FIR",
+        "first information report",
+        "information in cognizable case"
+      ],
+      "bn": [
+        "এজাহার",
+        "প্রথম তথ্য বিবরণী",
+        "এফআইআর"
+      ],
+      "colloquial": [
+        "ejahar",
+        "ejhar",
+        "ejar",
+        "f.i.r",
+        "fir"
+      ],
+      "related": [
+        "police_station",
+        "cognizable",
+        "gd",
+        "complainant"
+      ],
+      "statutes": [
+        "crpc1898_s154"
+      ]
+    },
+    {
+      "id": "naraji",
+      "label_en": "Complaint petition",
+      "label_bn": "নারাজি",
+      "en": [
+        "naraji petition",
+        "complaint petition",
+        "complaint case"
+      ],
+      "bn": [
+        "নারাজি",
+        "নালিশ",
+        "অভিযোগ"
+      ],
+      "colloquial": [
+        "naraji",
+        "narazi",
+        "nalish",
+        "nalej"
+      ],
+      "related": [
+        "complainant",
+        "magistrate",
+        "fir"
+      ],
+      "statutes": [
+        "crpc1898_s190"
+      ]
+    },
+    {
+      "id": "gd",
+      "label_en": "General diary",
+      "label_bn": "সাধারণ ডায়েরি",
+      "en": [
+        "general diary",
+        "GD entry"
+      ],
+      "bn": [
+        "সাধারণ ডায়েরি",
+        "জিডি"
+      ],
+      "colloquial": [
+        "gd",
+        "jid",
+        "general diary"
+      ],
+      "related": [
+        "police_station",
+        "fir"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "remand",
+      "label_en": "Remand / police custody",
+      "label_bn": "পুনঃসমর্পণ",
+      "en": [
+        "remand",
+        "remand to custody",
+        "police custody"
+      ],
+      "bn": [
+        "পুনঃসমর্পণ",
+        "রিমান্ড",
+        "পুলিশ হেফাজত"
+      ],
+      "colloquial": [
+        "remand",
+        "rimand"
+      ],
+      "related": [
+        "custody",
+        "arrest",
+        "detention"
+      ],
+      "statutes": [
+        "ata2009_s26",
+        "crpc1898_s167"
+      ]
+    },
+    {
+      "id": "bail",
+      "label_en": "Bail",
+      "label_bn": "জামিন",
+      "en": [
+        "bail",
+        "release on bail",
+        "bail bond"
+      ],
+      "bn": [
+        "জামিন",
+        "জামিনে মুক্তি",
+        "মুচলেকা"
+      ],
+      "colloquial": [
+        "bail",
+        "jamin",
+        "jamen",
+        "zamin",
+        "jomin"
+      ],
+      "related": [
+        "surety",
+        "custody",
+        "under_trial"
+      ],
+      "statutes": [
+        "crpc1898_s496",
+        "crpc1898_s497",
+        "ata2009_s32"
+      ]
+    },
+    {
+      "id": "anticipatory_bail",
+      "label_en": "Anticipatory bail",
+      "label_bn": "আগাম জামিন",
+      "en": [
+        "anticipatory bail",
+        "pre-arrest bail"
+      ],
+      "bn": [
+        "আগাম জামিন",
+        "গ্রেপ্তারপূর্ব জামিন"
+      ],
+      "colloquial": [
+        "agami jamin",
+        "agami bail",
+        "anticipatory bail"
+      ],
+      "related": [
+        "bail",
+        "arrest"
+      ],
+      "statutes": [
+        "crpc1898_s498"
+      ]
+    },
+    {
+      "id": "surety",
+      "label_en": "Surety / bail guarantor",
+      "label_bn": "জামিনদার",
+      "en": [
+        "surety",
+        "bail guarantor",
+        "surety bond"
+      ],
+      "bn": [
+        "জামিনদার",
+        "মুচলেকা"
+      ],
+      "colloquial": [
+        "jamin dar",
+        "jaminodar",
+        "surety"
+      ],
+      "related": [
+        "bail"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "cognizable",
+      "label_en": "Cognizable offence",
+      "label_bn": "আমলযোগ্য অপরাধ",
+      "en": [
+        "cognizable",
+        "cognizable offence",
+        "cognizable case"
+      ],
+      "bn": [
+        "আমলযোগ্য",
+        "আমলযোগ্য অপরাধ"
+      ],
+      "colloquial": [
+        "amaljoggo",
+        "amaljogyo",
+        "amal joggo"
+      ],
+      "related": [
+        "non_cognizable",
+        "arrest",
+        "fir"
+      ],
+      "statutes": [
+        "crpc1898_s154"
+      ]
+    },
+    {
+      "id": "non_cognizable",
+      "label_en": "Non-cognizable offence",
+      "label_bn": "অআমলযোগ্য অপরাধ",
+      "en": [
+        "non-cognizable",
+        "non cognizable offence"
+      ],
+      "bn": [
+        "অআমলযোগ্য",
+        "অ-আমলযোগ্য",
+        "আমলঅযোগ্য"
+      ],
+      "colloquial": [
+        "o-amaljoggo",
+        "anamaljoggo",
+        "non cognizable"
+      ],
+      "related": [
+        "cognizable",
+        "naraji"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "compoundable",
+      "label_en": "Compoundable offence",
+      "label_bn": "আপোষযোগ্য অপরাধ",
+      "en": [
+        "compoundable",
+        "compoundable offence",
+        "compounding"
+      ],
+      "bn": [
+        "আপোষযোগ্য",
+        "আপসযোগ্য"
+      ],
+      "colloquial": [
+        "aposhjoggo",
+        "aposh",
+        "compoundable"
+      ],
+      "related": [
+        "non_cognizable"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "charge_sheet",
+      "label_en": "Charge sheet / police report",
+      "label_bn": "অভিযোগপত্র",
+      "en": [
+        "charge sheet",
+        "chargesheet",
+        "police report",
+        "final report"
+      ],
+      "bn": [
+        "অভিযোগপত্র",
+        "চার্জশিট",
+        "পুলিশ রিপোর্ট"
+      ],
+      "colloquial": [
+        "chargesheet",
+        "charge sheet",
+        "cs",
+        "police report"
+      ],
+      "related": [
+        "investigation",
+        "magistrate"
+      ],
+      "statutes": [
+        "crpc1898_s173"
+      ]
+    },
+    {
+      "id": "investigation",
+      "label_en": "Investigation",
+      "label_bn": "তদন্ত",
+      "en": [
+        "investigation",
+        "investigate",
+        "investigating officer"
+      ],
+      "bn": [
+        "তদন্ত",
+        "তদন্তকারী",
+        "অনুসন্ধান"
+      ],
+      "colloquial": [
+        "tadanto",
+        "tadanta",
+        "investigation"
+      ],
+      "related": [
+        "inquiry",
+        "charge_sheet"
+      ],
+      "statutes": [
+        "crpc1898_s161"
+      ]
+    },
+    {
+      "id": "inquiry",
+      "label_en": "Inquiry",
+      "label_bn": "অনুসন্ধান",
+      "en": [
+        "inquiry",
+        "enquiry"
+      ],
+      "bn": [
+        "অনুসন্ধান",
+        "তদন্ত"
+      ],
+      "colloquial": [
+        "onusondhan",
+        "inquiry"
+      ],
+      "related": [
+        "investigation",
+        "magistrate"
+      ],
+      "statutes": [
+        "crpc1898_s190"
+      ]
+    },
+    {
+      "id": "arrest",
+      "label_en": "Arrest",
+      "label_bn": "গ্রেপ্তার",
+      "en": [
+        "arrest",
+        "arrested",
+        "arrest without warrant"
+      ],
+      "bn": [
+        "গ্রেপ্তার",
+        "গ্রেফতার",
+        "আটক"
+      ],
+      "colloquial": [
+        "grefar",
+        "greptar",
+        "arrest"
+      ],
+      "related": [
+        "arrest_warrant",
+        "custody",
+        "detention"
+      ],
+      "statutes": [
+        "crpc1898_s54"
+      ]
+    },
+    {
+      "id": "arrest_warrant",
+      "label_en": "Arrest warrant",
+      "label_bn": "গ্রেপ্তারি পরোয়ানা",
+      "en": [
+        "arrest warrant",
+        "warrant of arrest"
+      ],
+      "bn": [
+        "গ্রেপ্তারি পরোয়ানা",
+        "পরোয়ানা"
+      ],
+      "colloquial": [
+        "paroyana",
+        "warrant"
+      ],
+      "related": [
+        "arrest",
+        "summons"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "search_warrant",
+      "label_en": "Search warrant",
+      "label_bn": "তল্লাশি পরোয়ানা",
+      "en": [
+        "search warrant",
+        "search and seizure"
+      ],
+      "bn": [
+        "তল্লাশি পরোয়ানা",
+        "তল্লাশি"
+      ],
+      "colloquial": [
+        "tallashi",
+        "tallasi",
+        "search warrant"
+      ],
+      "related": [
+        "seizure"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "seizure",
+      "label_en": "Seizure / confiscation",
+      "label_bn": "জব্দ",
+      "en": [
+        "seizure",
+        "seize",
+        "seized",
+        "confiscation"
+      ],
+      "bn": [
+        "জব্দ",
+        "বাজেয়াপ্ত",
+        "ক্রোক"
+      ],
+      "colloquial": [
+        "jobdo",
+        "bazeyapto",
+        "seizure"
+      ],
+      "related": [
+        "search_warrant"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "confession",
+      "label_en": "Confession",
+      "label_bn": "স্বীকারোক্তি",
+      "en": [
+        "confession",
+        "confessional statement"
+      ],
+      "bn": [
+        "স্বীকারোক্তি",
+        "স্বীকারোক্তিমূলক"
+      ],
+      "colloquial": [
+        "sikarokti",
+        "shikarokti",
+        "confession"
+      ],
+      "related": [
+        "statement",
+        "evidence"
+      ],
+      "statutes": [
+        "ev1872_s24",
+        "ev1872_s25",
+        "crpc1898_s164"
+      ]
+    },
+    {
+      "id": "statement",
+      "label_en": "Statement",
+      "label_bn": "বিবৃতি",
+      "en": [
+        "statement",
+        "statement to police"
+      ],
+      "bn": [
+        "বিবৃতি",
+        "জবানবন্দি",
+        "বক্তব্য"
+      ],
+      "colloquial": [
+        "jababondi",
+        "bobritti",
+        "statement"
+      ],
+      "related": [
+        "witness",
+        "confession"
+      ],
+      "statutes": [
+        "crpc1898_s161",
+        "crpc1898_s162"
+      ]
+    },
+    {
+      "id": "witness",
+      "label_en": "Witness",
+      "label_bn": "সাক্ষী",
+      "en": [
+        "witness",
+        "witnesses",
+        "prosecution witness"
+      ],
+      "bn": [
+        "সাক্ষী",
+        "সাক্ষীগণ"
+      ],
+      "colloquial": [
+        "sakkhi",
+        "shakkhi",
+        "witness"
+      ],
+      "related": [
+        "evidence",
+        "statement"
+      ],
+      "statutes": [
+        "crpc1898_s161",
+        "ev1872_s60"
+      ]
+    },
+    {
+      "id": "complainant",
+      "label_en": "Complainant",
+      "label_bn": "বাদী",
+      "en": [
+        "complainant",
+        "informant"
+      ],
+      "bn": [
+        "বাদী",
+        "অভিযোগকারী",
+        "বাদীপক্ষ"
+      ],
+      "colloquial": [
+        "badi",
+        "badipokkho",
+        "complainant"
+      ],
+      "related": [
+        "accused",
+        "fir"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "accused",
+      "label_en": "Accused",
+      "label_bn": "অভিযুক্ত",
+      "en": [
+        "accused",
+        "accused person",
+        "defendant"
+      ],
+      "bn": [
+        "অভিযুক্ত",
+        "আসামি"
+      ],
+      "colloquial": [
+        "asami",
+        "accused"
+      ],
+      "related": [
+        "complainant",
+        "conviction"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "victim",
+      "label_en": "Victim",
+      "label_bn": "ভুক্তভোগী",
+      "en": [
+        "victim",
+        "injured person"
+      ],
+      "bn": [
+        "ভুক্তভোগী",
+        "ক্ষতিগ্রস্ত",
+        "শিকার"
+      ],
+      "colloquial": [
+        "bhuktobhogi",
+        "victim"
+      ],
+      "related": [
+        "witness"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "prosecution",
+      "label_en": "Prosecution",
+      "label_bn": "রাষ্ট্রপক্ষ",
+      "en": [
+        "prosecution",
+        "public prosecutor",
+        "state counsel"
+      ],
+      "bn": [
+        "রাষ্ট্রপক্ষ",
+        "পাবলিক প্রসিকিউটর",
+        "সরকার পক্ষ"
+      ],
+      "colloquial": [
+        "rastropokkho",
+        "pp",
+        "prosecution"
+      ],
+      "related": [
+        "defence"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "defence",
+      "label_en": "Defence",
+      "label_bn": "আসামিপক্ষ",
+      "en": [
+        "defence",
+        "defense",
+        "defence counsel"
+      ],
+      "bn": [
+        "আসামিপক্ষ",
+        "ডিফেন্স",
+        "আইনজীবী"
+      ],
+      "colloquial": [
+        "defence",
+        "defense"
+      ],
+      "related": [
+        "prosecution"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "magistrate",
+      "label_en": "Magistrate",
+      "label_bn": "ম্যাজিস্ট্রেট",
+      "en": [
+        "magistrate",
+        "executive magistrate",
+        "judicial magistrate"
+      ],
+      "bn": [
+        "ম্যাজিস্ট্রেট",
+        "বিচারক"
+      ],
+      "colloquial": [
+        "magistrate",
+        "majistrate"
+      ],
+      "related": [
+        "tribunal",
+        "sessions_judge"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "sessions_judge",
+      "label_en": "Sessions judge",
+      "label_bn": "দায়রা জজ",
+      "en": [
+        "sessions judge",
+        "district judge"
+      ],
+      "bn": [
+        "দায়রা জজ",
+        "জেলা জজ"
+      ],
+      "colloquial": [
+        "dayra joj",
+        "sessions judge"
+      ],
+      "related": [
+        "tribunal",
+        "tribunal"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "tribunal",
+      "label_en": "Tribunal",
+      "label_bn": "ট্রাইব্যুনাল",
+      "en": [
+        "tribunal",
+        "special tribunal"
+      ],
+      "bn": [
+        "ট্রাইব্যুনাল",
+        "বিশেষ আদালত"
+      ],
+      "colloquial": [
+        "tribunal",
+        "tribiunal"
+      ],
+      "related": [
+        "magistrate"
+      ],
+      "statutes": [
+        "ata2009_s28"
+      ]
+    },
+    {
+      "id": "judgment",
+      "label_en": "Judgment",
+      "label_bn": "রায়",
+      "en": [
+        "judgment",
+        "judgement",
+        "verdict"
+      ],
+      "bn": [
+        "রায়",
+        "রায়ঘোষণা",
+        "ফয়সালা"
+      ],
+      "colloquial": [
+        "ray",
+        "verdict",
+        "judgment"
+      ],
+      "related": [
+        "appeal",
+        "appeal"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "appeal",
+      "label_en": "Appeal",
+      "label_bn": "আপিল",
+      "en": [
+        "appeal",
+        "appeal against conviction"
+      ],
+      "bn": [
+        "আপিল",
+        "আপীল"
+      ],
+      "colloquial": [
+        "apil",
+        "appeal"
+      ],
+      "related": [
+        "revision",
+        "judgment"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "revision",
+      "label_en": "Revision",
+      "label_bn": "পুনর্বিবেচনা",
+      "en": [
+        "revision",
+        "revisional jurisdiction"
+      ],
+      "bn": [
+        "পুনর্বিবেচনা",
+        "রিভিশন"
+      ],
+      "colloquial": [
+        "revision",
+        "ribhishon"
+      ],
+      "related": [
+        "appeal"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "acquittal",
+      "label_en": "Acquittal",
+      "label_bn": "খালাস",
+      "en": [
+        "acquittal",
+        "acquitted",
+        "benefit of doubt"
+      ],
+      "bn": [
+        "খালাস",
+        "বেকসুর",
+        "দোষমুক্ত"
+      ],
+      "colloquial": [
+        "khalas",
+        "acquittal"
+      ],
+      "related": [
+        "conviction"
+      ],
+      "statutes": [
+        "crpc1898_s245"
+      ]
+    },
+    {
+      "id": "conviction",
+      "label_en": "Conviction",
+      "label_bn": "দোষী সাব্যস্ত",
+      "en": [
+        "conviction",
+        "convicted",
+        "guilty"
+      ],
+      "bn": [
+        "দোষী সাব্যস্ত",
+        "দোষী",
+        "সাজাপ্রাপ্ত"
+      ],
+      "colloquial": [
+        "doshi sabyasto",
+        "convicted"
+      ],
+      "related": [
+        "acquittal",
+        "sentence"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "sentence",
+      "label_en": "Sentence / punishment",
+      "label_bn": "শাস্তি",
+      "en": [
+        "sentence",
+        "punishment",
+        "penalty"
+      ],
+      "bn": [
+        "শাস্তি",
+        "দণ্ড",
+        "সাজা"
+      ],
+      "colloquial": [
+        "saja",
+        "shasti",
+        "dondo"
+      ],
+      "related": [
+        "conviction",
+        "imprisonment"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "imprisonment",
+      "label_en": "Imprisonment",
+      "label_bn": "কারাদণ্ড",
+      "en": [
+        "imprisonment",
+        "rigorous imprisonment",
+        "simple imprisonment"
+      ],
+      "bn": [
+        "কারাদণ্ড",
+        "সশ্রম কারাদণ্ড",
+        "বিনাশ্রম কারাদণ্ড"
+      ],
+      "colloquial": [
+        "karadondo",
+        "jail",
+        "imprisonment"
+      ],
+      "related": [
+        "life_imprisonment"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "life_imprisonment",
+      "label_en": "Life imprisonment",
+      "label_bn": "যাবজ্জীবন কারাদণ্ড",
+      "en": [
+        "life imprisonment",
+        "imprisonment for life"
+      ],
+      "bn": [
+        "যাবজ্জীবন কারাদণ্ড",
+        "যাবজ্জীবন"
+      ],
+      "colloquial": [
+        "jabojjibon",
+        "life sentence"
+      ],
+      "related": [
+        "death_penalty"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "death_penalty",
+      "label_en": "Death penalty",
+      "label_bn": "মৃত্যুদণ্ড",
+      "en": [
+        "death penalty",
+        "death sentence",
+        "capital punishment"
+      ],
+      "bn": [
+        "মৃত্যুদণ্ড",
+        "ফাঁসি"
+      ],
+      "colloquial": [
+        "mrityudondo",
+        "phansi",
+        "fansi"
+      ],
+      "related": [
+        "life_imprisonment"
+      ],
+      "statutes": [
+        "pc1860_s302"
+      ]
+    },
+    {
+      "id": "fine",
+      "label_en": "Fine",
+      "label_bn": "জরিমানা",
+      "en": [
+        "fine",
+        "fine and imprisonment"
+      ],
+      "bn": [
+        "জরিমানা",
+        "অর্থদণ্ড"
+      ],
+      "colloquial": [
+        "jorimana",
+        "fine"
+      ],
+      "related": [
+        "sentence"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "custody",
+      "label_en": "Custody",
+      "label_bn": "হেফাজত",
+      "en": [
+        "custody",
+        "police custody",
+        "judicial custody"
+      ],
+      "bn": [
+        "হেফাজত",
+        "জুদিশিয়াল হেফাজত",
+        "আটক"
+      ],
+      "colloquial": [
+        "hefazot",
+        "custody"
+      ],
+      "related": [
+        "remand",
+        "detention"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "detention",
+      "label_en": "Detention",
+      "label_bn": "আটক",
+      "en": [
+        "detention",
+        "detained",
+        "preventive detention"
+      ],
+      "bn": [
+        "আটক",
+        "আটকাদেশ",
+        "নজরবন্দি"
+      ],
+      "colloquial": [
+        "atak",
+        "detention"
+      ],
+      "related": [
+        "custody",
+        "habeas_corpus"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "habeas_corpus",
+      "label_en": "Habeas corpus",
+      "label_bn": "হেবিয়াস কর্পাস",
+      "en": [
+        "habeas corpus"
+      ],
+      "bn": [
+        "হেবিয়াস কর্পাস"
+      ],
+      "colloquial": [
+        "habeas corpus",
+        "hebeas corpus"
+      ],
+      "related": [
+        "detention"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "under_trial",
+      "label_en": "Under-trial prisoner",
+      "label_bn": "বিচারাধীন বন্দি",
+      "en": [
+        "under-trial",
+        "undertrial prisoner",
+        "pre-trial detention"
+      ],
+      "bn": [
+        "বিচারাধীন বন্দি",
+        "বিচারাধীন"
+      ],
+      "colloquial": [
+        "bicharadhin",
+        "undertrial"
+      ],
+      "related": [
+        "custody",
+        "bail"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "juvenile",
+      "label_en": "Juvenile / child in conflict with law",
+      "label_bn": "শিশু",
+      "en": [
+        "juvenile",
+        "child in conflict with law",
+        "juvenile justice"
+      ],
+      "bn": [
+        "কিশোর",
+        "নাবালক",
+        "শিশু",
+        "আইনের সহিত সংঘাতে জড়িত শিশু"
+      ],
+      "colloquial": [
+        "shishu",
+        "juvenile"
+      ],
+      "related": [
+        "bail"
+      ],
+      "statutes": [
+        "children2013_s29"
+      ]
+    },
+    {
+      "id": "trafficking",
+      "label_en": "Human trafficking",
+      "label_bn": "মানব পাচার",
+      "en": [
+        "trafficking",
+        "human trafficking",
+        "migrant smuggling"
+      ],
+      "bn": [
+        "মানব পাচার",
+        "পাচার"
+      ],
+      "colloquial": [
+        "manob pachar",
+        "trafficking"
+      ],
+      "related": [
+        "kidnapping"
+      ],
+      "statutes": [
+        "trafficking2026_s5",
+        "trafficking2026_s6"
+      ]
+    },
+    {
+      "id": "dowry",
+      "label_en": "Dowry",
+      "label_bn": "যৌতুক",
+      "en": [
+        "dowry",
+        "dowry demand"
+      ],
+      "bn": [
+        "যৌতুক",
+        "যৌতুক দাবি"
+      ],
+      "colloquial": [
+        "joutuk",
+        "dowry"
+      ],
+      "related": [
+        "domestic_violence"
+      ],
+      "statutes": [
+        "dowry2018_s3",
+        "wc2000_s11"
+      ]
+    },
+    {
+      "id": "domestic_violence",
+      "label_en": "Domestic violence",
+      "label_bn": "পারিবারিক সহিংসতা",
+      "en": [
+        "domestic violence",
+        "domestic abuse"
+      ],
+      "bn": [
+        "পারিবারিক সহিংসতা",
+        "গার্হস্থ্য সহিংসতা"
+      ],
+      "colloquial": [
+        "paribarik sohingshota",
+        "dv"
+      ],
+      "related": [
+        "dowry"
+      ],
+      "statutes": [
+        "dv2010_s3"
+      ]
+    },
+    {
+      "id": "acid_attack",
+      "label_en": "Acid attack",
+      "label_bn": "এসিড নিক্ষেপ",
+      "en": [
+        "acid attack",
+        "acid throwing"
+      ],
+      "bn": [
+        "এসিড নিক্ষেপ",
+        "এসিড হামলা"
+      ],
+      "colloquial": [
+        "acid attack",
+        "esid"
+      ],
+      "related": [
+        "hurt"
+      ],
+      "statutes": [
+        "acid2002_s4",
+        "acid2002_s5"
+      ]
+    },
+    {
+      "id": "rape",
+      "label_en": "Rape",
+      "label_bn": "ধর্ষণ",
+      "en": [
+        "rape",
+        "rape and murder"
+      ],
+      "bn": [
+        "ধর্ষণ",
+        "ধর্ষণজনিত"
+      ],
+      "colloquial": [
+        "dhorshon",
+        "rape"
+      ],
+      "related": [
+        "hurt"
+      ],
+      "statutes": [
+        "pc1860_s375",
+        "wc2000_s9"
+      ]
+    },
+    {
+      "id": "murder",
+      "label_en": "Murder",
+      "label_bn": "হত্যা",
+      "en": [
+        "murder",
+        "homicide",
+        "killing"
+      ],
+      "bn": [
+        "হত্যা",
+        "খুন"
+      ],
+      "colloquial": [
+        "hotya",
+        "khun",
+        "murder"
+      ],
+      "related": [
+        "culpable_homicide"
+      ],
+      "statutes": [
+        "pc1860_s300",
+        "pc1860_s302"
+      ]
+    },
+    {
+      "id": "culpable_homicide",
+      "label_en": "Culpable homicide",
+      "label_bn": "অপরাধমূলক হত্যা",
+      "en": [
+        "culpable homicide",
+        "culpable homicide not amounting to murder"
+      ],
+      "bn": [
+        "অপরাধমূলক হত্যা",
+        "দণ্ডনীয় হত্যা"
+      ],
+      "colloquial": [
+        "culpable homicide"
+      ],
+      "related": [
+        "murder"
+      ],
+      "statutes": [
+        "pc1860_s304"
+      ]
+    },
+    {
+      "id": "hurt",
+      "label_en": "Hurt / injury",
+      "label_bn": "আঘাত",
+      "en": [
+        "hurt",
+        "grievous hurt",
+        "injury",
+        "assault"
+      ],
+      "bn": [
+        "আঘাত",
+        "জখম",
+        "গুরুতর আঘাত"
+      ],
+      "colloquial": [
+        "aghat",
+        "jokhom",
+        "injury"
+      ],
+      "related": [
+        "acid_attack"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "theft",
+      "label_en": "Theft",
+      "label_bn": "চুরি",
+      "en": [
+        "theft",
+        "stolen property"
+      ],
+      "bn": [
+        "চুরি",
+        "চুরি করা"
+      ],
+      "colloquial": [
+        "churi",
+        "theft"
+      ],
+      "related": [
+        "robbery"
+      ],
+      "statutes": [
+        "pc1860_s378",
+        "pc1860_s379"
+      ]
+    },
+    {
+      "id": "robbery",
+      "label_en": "Robbery",
+      "label_bn": "ডাকাতি",
+      "en": [
+        "robbery",
+        "robber"
+      ],
+      "bn": [
+        "ডাকাতি",
+        "রাহাজানি"
+      ],
+      "colloquial": [
+        "dakati",
+        "robbery"
+      ],
+      "related": [
+        "dacoity",
+        "theft"
+      ],
+      "statutes": [
+        "pc1860_s390",
+        "pc1860_s392"
+      ]
+    },
+    {
+      "id": "dacoity",
+      "label_en": "Dacoity",
+      "label_bn": "দস্যুতা",
+      "en": [
+        "dacoity",
+        "gang robbery"
+      ],
+      "bn": [
+        "দস্যুতা",
+        "ডাকাতি"
+      ],
+      "colloquial": [
+        "dacoity",
+        "dakati"
+      ],
+      "related": [
+        "robbery"
+      ],
+      "statutes": [
+        "pc1860_s395"
+      ]
+    },
+    {
+      "id": "extortion",
+      "label_en": "Extortion",
+      "label_bn": "চাঁদাবাজি",
+      "en": [
+        "extortion",
+        "extort"
+      ],
+      "bn": [
+        "চাঁদাবাজি",
+        "ভয়ভীতি প্রদর্শন"
+      ],
+      "colloquial": [
+        "chandabaji",
+        "extortion"
+      ],
+      "related": [
+        "robbery"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "kidnapping",
+      "label_en": "Kidnapping / abduction",
+      "label_bn": "অপহরণ",
+      "en": [
+        "kidnapping",
+        "abduction",
+        "abducting"
+      ],
+      "bn": [
+        "অপহরণ",
+        "অপহৃত"
+      ],
+      "colloquial": [
+        "opohoron",
+        "kidnap"
+      ],
+      "related": [
+        "trafficking"
+      ],
+      "statutes": [
+        "pc1860_s364"
+      ]
+    },
+    {
+      "id": "cheating",
+      "label_en": "Cheating / fraud",
+      "label_bn": "প্রতারণা",
+      "en": [
+        "cheating",
+        "fraud",
+        "deception"
+      ],
+      "bn": [
+        "প্রতারণা",
+        "ঠকানো"
+      ],
+      "colloquial": [
+        "protarona",
+        "cheating",
+        "fraud"
+      ],
+      "related": [
+        "forgery"
+      ],
+      "statutes": [
+        "pc1860_s415",
+        "pc1860_s420"
+      ]
+    },
+    {
+      "id": "forgery",
+      "label_en": "Forgery",
+      "label_bn": "জালিয়াতি",
+      "en": [
+        "forgery",
+        "forged",
+        "fake document"
+      ],
+      "bn": [
+        "জালিয়াতি",
+        "জাল",
+        "জালকরণ"
+      ],
+      "colloquial": [
+        "jaliyati",
+        "forgery"
+      ],
+      "related": [
+        "cheating"
+      ],
+      "statutes": [
+        "pc1860_s463",
+        "pc1860_s465"
+      ]
+    },
+    {
+      "id": "corruption",
+      "label_en": "Corruption",
+      "label_bn": "দুর্নীতি",
+      "en": [
+        "corruption",
+        "corrupt practice"
+      ],
+      "bn": [
+        "দুর্নীতি",
+        "দুর্নীতিপরায়ণ"
+      ],
+      "colloquial": [
+        "durniti",
+        "corruption"
+      ],
+      "related": [
+        "bribe"
+      ],
+      "statutes": [
+        "poca1947_s3"
+      ]
+    },
+    {
+      "id": "bribe",
+      "label_en": "Bribe",
+      "label_bn": "ঘুষ",
+      "en": [
+        "bribe",
+        "bribery",
+        "illegal gratification"
+      ],
+      "bn": [
+        "ঘুষ",
+        "ঘুষখোর",
+        "অবৈধ সুবিধা"
+      ],
+      "colloquial": [
+        "ghush",
+        "bribe"
+      ],
+      "related": [
+        "corruption"
+      ],
+      "statutes": [
+        "poca1947_s3"
+      ]
+    },
+    {
+      "id": "money_laundering",
+      "label_en": "Money laundering",
+      "label_bn": "মানিলন্ডারিং",
+      "en": [
+        "money laundering",
+        "laundering",
+        "proceeds of crime"
+      ],
+      "bn": [
+        "মানিলন্ডারিং",
+        "অর্থ পাচার"
+      ],
+      "colloquial": [
+        "money laundering",
+        "manilondaring"
+      ],
+      "related": [
+        "trafficking"
+      ],
+      "statutes": [
+        "mlpa2012_s4"
+      ]
+    },
+    {
+      "id": "narcotics",
+      "label_en": "Narcotics / drugs",
+      "label_bn": "মাদকদ্রব্য",
+      "en": [
+        "narcotics",
+        "drugs",
+        "drug offence"
+      ],
+      "bn": [
+        "মাদক",
+        "মাদকদ্রব্য",
+        "মাদকাসক্তি"
+      ],
+      "colloquial": [
+        "madok",
+        "narcotics",
+        "drugs"
+      ],
+      "related": [
+        "trafficking"
+      ],
+      "statutes": [
+        "narcotics2018_s36"
+      ]
+    },
+    {
+      "id": "arms",
+      "label_en": "Arms / firearms",
+      "label_bn": "অস্ত্র",
+      "en": [
+        "arms",
+        "firearms",
+        "weapon"
+      ],
+      "bn": [
+        "অস্ত্র",
+        "আগ্নেয়াস্ত্র",
+        "অস্ত্রশস্ত্র"
+      ],
+      "colloquial": [
+        "ostro",
+        "arms"
+      ],
+      "related": [
+        "explosive"
+      ],
+      "statutes": [
+        "arms1878_s19"
+      ]
+    },
+    {
+      "id": "explosive",
+      "label_en": "Explosive",
+      "label_bn": "বিস্ফোরক",
+      "en": [
+        "explosive",
+        "explosion",
+        "bomb"
+      ],
+      "bn": [
+        "বিস্ফোরক",
+        "বোমা",
+        "বিস্ফোরণ"
+      ],
+      "colloquial": [
+        "bishphorok",
+        "bomb"
+      ],
+      "related": [
+        "arms",
+        "terrorism"
+      ],
+      "statutes": [
+        "esa1908_s3"
+      ]
+    },
+    {
+      "id": "terrorism",
+      "label_en": "Terrorism",
+      "label_bn": "সন্ত্রাসবাদ",
+      "en": [
+        "terrorism",
+        "terrorist",
+        "terrorist act"
+      ],
+      "bn": [
+        "সন্ত্রাস",
+        "সন্ত্রাসবাদ",
+        "সন্ত্রাসী"
+      ],
+      "colloquial": [
+        "sontrash",
+        "terrorism"
+      ],
+      "related": [
+        "explosive"
+      ],
+      "statutes": [
+        "ata2009_s32"
+      ]
+    },
+    {
+      "id": "cyber_crime",
+      "label_en": "Cyber crime",
+      "label_bn": "সাইবার অপরাধ",
+      "en": [
+        "cyber crime",
+        "cybercrime",
+        "hacking",
+        "online fraud"
+      ],
+      "bn": [
+        "সাইবার অপরাধ",
+        "হ্যাকিং",
+        "অনলাইন প্রতারণা"
+      ],
+      "colloquial": [
+        "cyber crime",
+        "hacking"
+      ],
+      "related": [
+        "cheating",
+        "defamation"
+      ],
+      "statutes": [
+        "cyber2026_s21",
+        "cyber2026_s22"
+      ]
+    },
+    {
+      "id": "defamation",
+      "label_en": "Defamation",
+      "label_bn": "মানহানি",
+      "en": [
+        "defamation",
+        "libel",
+        "slander"
+      ],
+      "bn": [
+        "মানহানি",
+        "অপবাদ"
+      ],
+      "colloquial": [
+        "manhani",
+        "defamation"
+      ],
+      "related": [
+        "cyber_crime"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "public_servant",
+      "label_en": "Public servant",
+      "label_bn": "সরকারি কর্মচারী",
+      "en": [
+        "public servant",
+        "government servant"
+      ],
+      "bn": [
+        "সরকারি কর্মচারী",
+        "পাবলিক সার্ভেন্ট"
+      ],
+      "colloquial": [
+        "public servant",
+        "govt officer"
+      ],
+      "related": [
+        "officer_in_charge"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "police_station",
+      "label_en": "Police station",
+      "label_bn": "থানা",
+      "en": [
+        "police station",
+        "thana"
+      ],
+      "bn": [
+        "থানা",
+        "পুলিশ স্টেশন"
+      ],
+      "colloquial": [
+        "thana",
+        "police station"
+      ],
+      "related": [
+        "officer_in_charge",
+        "fir"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "officer_in_charge",
+      "label_en": "Officer-in-charge",
+      "label_bn": "ভারপ্রাপ্ত কর্মকর্তা",
+      "en": [
+        "officer-in-charge",
+        "OC",
+        "station officer"
+      ],
+      "bn": [
+        "ভারপ্রাপ্ত কর্মকর্তা",
+        "ওসি",
+        "থানার ভারপ্রাপ্ত কর্মকর্তা"
+      ],
+      "colloquial": [
+        "oc",
+        "officer in charge"
+      ],
+      "related": [
+        "police_station"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "jurisdiction",
+      "label_en": "Jurisdiction",
+      "label_bn": "এখতিয়ার",
+      "en": [
+        "jurisdiction",
+        "territorial jurisdiction"
+      ],
+      "bn": [
+        "এখতিয়ার",
+        "অধিক্ষেত্র"
+      ],
+      "colloquial": [
+        "ekhtiar",
+        "jurisdiction"
+      ],
+      "related": [
+        "magistrate"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "evidence",
+      "label_en": "Evidence",
+      "label_bn": "সাক্ষ্য",
+      "en": [
+        "evidence",
+        "proof",
+        "testimony"
+      ],
+      "bn": [
+        "সাক্ষ্য",
+        "প্রমাণ",
+        "সাক্ষ্যপ্রমাণ"
+      ],
+      "colloquial": [
+        "sakkho",
+        "evidence"
+      ],
+      "related": [
+        "witness",
+        "burden_of_proof"
+      ],
+      "statutes": [
+        "ev1872_s60"
+      ]
+    },
+    {
+      "id": "burden_of_proof",
+      "label_en": "Burden of proof",
+      "label_bn": "প্রমাণের ভার",
+      "en": [
+        "burden of proof",
+        "onus of proof"
+      ],
+      "bn": [
+        "প্রমাণের ভার",
+        "সাক্ষ্যের ভার"
+      ],
+      "colloquial": [
+        "burden of proof"
+      ],
+      "related": [
+        "evidence"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "absconding",
+      "label_en": "Absconding",
+      "label_bn": "পলাতক",
+      "en": [
+        "absconding",
+        "absconder",
+        "proclaimed offender"
+      ],
+      "bn": [
+        "পলাতক",
+        "পলায়ন",
+        "ঘোষিত অপরাধী"
+      ],
+      "colloquial": [
+        "polatok",
+        "absconding"
+      ],
+      "related": [
+        "summons"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "summons",
+      "label_en": "Summons",
+      "label_bn": "সমন",
+      "en": [
+        "summons",
+        "summon"
+      ],
+      "bn": [
+        "সমন",
+        "সমন্স"
+      ],
+      "colloquial": [
+        "sumon",
+        "summons"
+      ],
+      "related": [
+        "arrest_warrant"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "inquest",
+      "label_en": "Inquest",
+      "label_bn": "মৃত্যু তদন্ত",
+      "en": [
+        "inquest",
+        "inquiry into death"
+      ],
+      "bn": [
+        "মৃত্যু তদন্ত",
+        "ইনকোয়েস্ট"
+      ],
+      "colloquial": [
+        "inquest"
+      ],
+      "related": [
+        "post_mortem"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "post_mortem",
+      "label_en": "Post-mortem",
+      "label_bn": "ময়নাতদন্ত",
+      "en": [
+        "post-mortem",
+        "autopsy",
+        "postmortem"
+      ],
+      "bn": [
+        "ময়নাতদন্ত",
+        "ময়না"
+      ],
+      "colloquial": [
+        "moynatodonto",
+        "autopsy"
+      ],
+      "related": [
+        "inquest",
+        "dying_declaration"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "dying_declaration",
+      "label_en": "Dying declaration",
+      "label_bn": "মৃত্যুপূর্ব বক্তব্য",
+      "en": [
+        "dying declaration",
+        "deathbed statement"
+      ],
+      "bn": [
+        "মৃত্যুপূর্ব বক্তব্য",
+        "মরণোত্তর বক্তব্য"
+      ],
+      "colloquial": [
+        "dying declaration"
+      ],
+      "related": [
+        "evidence"
+      ],
+      "statutes": [
+        "ev1872_s32"
+      ]
+    },
+    {
+      "id": "pardon",
+      "label_en": "Pardon / immunity",
+      "label_bn": "ক্ষমা",
+      "en": [
+        "pardon",
+        "immunity",
+        "approver"
+      ],
+      "bn": [
+        "ক্ষমা",
+        "অনাক্রম্যতা"
+      ],
+      "colloquial": [
+        "khoma",
+        "pardon"
+      ],
+      "related": [
+        "witness"
+      ],
+      "statutes": []
+    },
+    {
+      "id": "parole",
+      "label_en": "Parole",
+      "label_bn": "প্যারোল",
+      "en": [
+        "parole",
+        "conditional release"
+      ],
+      "bn": [
+        "প্যারোল",
+        "শর্তসাপেক্ষ মুক্তি"
+      ],
+      "colloquial": [
+        "parole"
+      ],
+      "related": [
+        "bail"
+      ],
+      "statutes": []
+    }
+  ]
+}

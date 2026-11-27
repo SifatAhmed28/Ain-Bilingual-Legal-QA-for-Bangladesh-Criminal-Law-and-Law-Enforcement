@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Downloaded/source corpora and generated intermediate data.
+# These are large and may have separate redistribution terms.
+BLAD/
+UKIL-DB-EN/
+data/raw/
+data/clean/
+archive_unnecessary/
+
+# Dense model artifacts are large and not used by the BM25 demo.
+indexes/*.npy
+indexes/*.faiss
+indexes/*.index
+
+# Keep only the BM25 runtime index artifacts from the index directory.
+indexes/*
+!indexes/chunks.jsonl
+!indexes/bm25_tokens.pkl
+!indexes/manifest.json
+
+# Temporary outputs
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.ipynb_checkpoints/

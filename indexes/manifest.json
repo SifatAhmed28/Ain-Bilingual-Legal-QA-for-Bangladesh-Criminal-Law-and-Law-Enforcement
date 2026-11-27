@@ -1,0 +1,6 @@
+{
+  "documents": 3584,
+  "bm25": "token corpus; BM25Okapi at query time",
+  "dense_model": "BAAI/bge-m3",
+  "faiss": true
+}
